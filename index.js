@@ -3,7 +3,8 @@ window.buyBook = function () {
 };
 
 window.addEventListener("load", function () {
-   if (~document.querySelector(".woocommerce-message").innerText.indexOf("was successfully added to your cart")) {
+   var messageEl = document.querySelector(".woocommerce-message")
+   if (messageEl && ~messageEl.innerText.indexOf("was successfully added to your cart")) {
       location = "/checkout";
    }
 });
