@@ -18,7 +18,7 @@ div[itemprop='offers'] {
     display: none;
 }
 
-button.buy-button {
+.buy-button {
     width: 100%;
     border: 1px solid white;
     background-color: #FEB25C;
@@ -31,6 +31,6 @@ button.buy-button {
     cursor: pointer;
 }
 
-button.buy-button:hover {
+.buy-button:hover {
     background-color: #48290F;
 }
