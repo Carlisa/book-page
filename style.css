@@ -1,0 +1,19 @@
+.summary.entry-summary {
+    margin-left: 0 !important;
+}
+
+.product .images {
+    display: none;
+}
+
+.product_title.entry-title {
+    display: none;
+}
+
+div[itemprop='offers'] {
+    display: none !important;
+}
+
+.product-border {
+    display: none;
+}
