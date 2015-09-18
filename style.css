@@ -17,3 +17,20 @@ div[itemprop='offers'] {
 .product-border {
     display: none;
 }
+
+button.buy-button {
+    width: 100%;
+    border: 1px solid white;
+    background-color: #FEB25C;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button.buy-button:hover {
+    background-color: #48290F;
+}
